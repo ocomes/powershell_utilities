@@ -1,5 +1,3 @@
-Add-Type -AssemblyName System.Security
-
 Function Get-HMACSHA512 {
     
     param(
