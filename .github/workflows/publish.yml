@@ -10,5 +10,5 @@ jobs:
  
         - uses: aammirmirza/Publish2PSGallery@PSGallery_v2
           with:          
-            NuGetApiKey: $(NuGetApiKey)        
+            NuGetApiKey: $(NUGETAPIKEY)        
             modulePath: './'
