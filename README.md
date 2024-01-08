@@ -13,5 +13,5 @@ $payload = [ordered]@{
 
 $secret = "secret_key"
 
-$jwt = Create-JWT -headers $headers -payload $payload -secret $secret
+$jwt = Create-OCJWT -headers $headers -payload $payload -secret $secret
 ```
