@@ -7,7 +7,7 @@ jobs:
   Publish:
     runs-on: ubuntu-latest
     steps:
- 
+        - uses: actions/checkout@v2
         - uses: aammirmirza/Publish2PSGallery@PSGallery_v2
           with:          
             NuGetApiKey: ${{secrets.NUGETAPIKEY}}
