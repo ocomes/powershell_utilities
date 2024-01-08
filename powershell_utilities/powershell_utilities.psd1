@@ -9,10 +9,10 @@
 @{
 
     # Script module or binary module file associated with this manifest.
-    # RootModule = ''
+    RootModule = 'powershell_utilities'
     
     # Version number of this module.
-    ModuleVersion = '1.0'
+    ModuleVersion = '1.1'
     
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -126,7 +126,7 @@
     # HelpInfoURI = ''
     
     # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
-    # DefaultCommandPrefix = ''
+    DefaultCommandPrefix = 'OC'
     
     }
     
